@@ -1,0 +1,281 @@
+
+@font-face {font-family: supermarket;src: url(css/font/supermarket-webfont.eot);src: url(css/font/supermarket-webfont.eot?#iefix) format('embedded-opentype'), url(css/font/supermarket-webfont.woff2) format('woff2'), url(css/font/supermarket-webfont.woff) format('woff'), url(css/font/supermarket-webfont.ttf) format('truetype');font-weight: 400;font-style: normal;font-display:swap}
+body {margin: 0px;color: #000;font-family: "Tahoma", Verdana, sans-serif;font-size: 95%}
+@-ms-viewport {width: device-width}
+@-o-viewport {width: device-width}
+@viewport {width: device-width}
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}
+a:link,a:visited {color: #237709;text-decoration: none}
+a:active,a:hover {color: #0099FF;text-decoration: none}
+img {border: none;vertical-align: middle}
+ul {padding: 0;margin: 0}
+li {list-style: none}
+.txty13 {font-size: 13px;color: #ffff00;text-shadow: 0px 1px 1px #000}
+.txtw13 {font-size: 13px;color: #ffffff;text-shadow: 0px 1px 1px #000}
+.txtb13 {font-size: 13px;color: #000;text-shadow: 0px 1px 1px #ffffff}
+.txtb115 {font-size: 14px;color: #000000;text-shadow: 0px 1px 1px #ffffff}
+.tx_sky1 {color: #007700;font-family: "supermarket", Tahoma, Arial;letter-spacing: 2px}
+.p {border: dotted;border-width: 3px;border-color: #FF0000}
+.clear {clear: both}
+.p0 {padding: 0% !important}
+.p1 {padding: 1%}
+.p2 {padding: 2%}
+.p3 {padding: 3%}
+.p4 {padding: 4%}
+.p5 {padding: 5%}
+.pt0 {padding-top: 0% !important}
+.pt1 {padding-top: 1%}
+.pt2 {padding-top: 2%}
+.pt3 {padding-top: 3%}
+.pt4 {padding-top: 4%}
+.pt5 {padding-top: 5%}
+.pr0 {padding-right: 0% !important}
+.pr1 {padding-right: 1%}
+.pr2 {padding-right: 2%}
+.pr3 {padding-right: 3%}
+.pr4 {padding-right: 4%}
+.pr5 {padding-right: 5%}
+.pb0 {padding-bottom: 0% !important}
+.pb1 {padding-bottom: 1%}
+.pb2 {padding-bottom: 2%}
+.pb3 {padding-bottom: 3%}
+.pb4 {padding-bottom: 4%}
+.pb5 {padding-bottom: 5%}
+.pl0 {padding-left: 0% !important}
+.pl1 {padding-left: 1%}
+.pl2 {padding-left: 2%}
+.pl3 {padding-left: 3%}
+.pl4 {padding-left: 4%}
+.pl5 {padding-left: 5%}
+.tx_center {text-align: center !important}
+.tx_white {color: #FFF !important}
+.tx_black {color: #000}
+.page-nav {text-align: center;padding: 1%}
+a.current,span.current {border: 1px solid #880202;font: bold .7em Arial, Helvetica, sans-serif;padding: 2px 6px 2px 6px;cursor: default;background: #880202;color: #FFFFFF;text-decoration: none}
+span.inactive {border: 1px solid #999;font-family: Arial, Helvetica, sans-serif;font-size: .7em;padding: 2px 6px 2px 6px;color: #999;cursor: default}
+.btn-green a:link,.btn-green a:visited {border: none;width: 130px;height: 32px;background-color: #090;color: #FFF;cursor: pointer;font-size: 90%;padding: 6px 10px;text-align: center;border-radius: 3px;-khtml-border-radius: 3px;-moz-border-radius: 3px;-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25)}
+.btn-green a:hover,.btn-green a:active {background-color: #060;cursor: pointer;color: #FFF}
+.banner_728 {text-align: center;margin: 1% 0}
+.banner_1000 {text-align: center;margin: 1% 0}
+.banner_1000 img {width: 100%}
+.banner_300 {text-align: center}
+.banner-box {margin-top: 1%}
+#ads_fox_right {position: fixed;right: 0;top: 5px;bottom: 5px;z-index: 99998;text-align: right}
+#ads_fox_right .banner_slide1 {display: block;float: right;margin: 5px 0 5px 0}
+#ads_fox_right .closed {display: block;margin: 0 0 0 0;cursor: pointer;text-align: right}
+#ads_fox_right .closed img {padding: 5px 0px 0px 0px}
+#ads_fox_left {position: fixed;left: 0;top: 5px;bottom: 5px;display: block;z-index: 99998;text-align: left}
+#ads_fox_left .banner_slide1 {display: block;float: left;margin: 5px 0 5px 0}
+#ads_fox_left .closed {display: block;margin: 0 0 0 0;cursor: pointer;text-align: left}
+#ads_fox_left .closed img {padding: 5px 0px 0px 0px}
+#ads_fox_bottom {position: fixed;bottom: 0;right: auto;left: 0;display: block;width: 100%;min-height: 40px;z-index: 99999;text-align: center}
+#ads_fox_bottom {margin: 0;width: 100%;text-align: center;padding: 0 1%;min-height: 40px;display: block;overflow: hidden}
+#ads_fox_bottom .banner_slide2 {}
+#ads_fox_bottom .banner_slide2 img {max-width: 100%}
+#ads_fox_bottom .closed {display: block;margin: 0 0 0 0;cursor: pointer;text-align: left}
+#ads_fox_bottom .closed img {padding: 5px 0px 0px 30px}
+header {background: #000;padding-top: 1%}
+header a:link,header a:visited {color: #FFF;text-decoration: none}
+header a:active,header a:hover {color: #FFF;text-decoration: none}
+header .logo {float: left;width: 28%}
+header .logo img {width: 95%}
+header .banner-1 {float: left;width: 72%;text-align: center}
+header .banner-1 img {width: 100%}
+.menu-top {font-family: "supermarket", Tahoma, Arial;letter-spacing: 2px;font-size: 105%}
+.menu-top li {width: 124px;display: inline-block;margin-right: 2px;text-align: center;padding: 0.2% 0;background: rgba(198, 46, 46, 1);background: -moz-linear-gradient(top, rgba(198, 46, 46, 1) 0%, rgba(145, 9, 9, 1) 44%, rgba(145, 9, 9, 1) 100%);background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(198, 46, 46, 1)), color-stop(44%, rgba(145, 9, 9, 1)), color-stop(100%, rgba(145, 9, 9, 1)));background: -webkit-linear-gradient(top, rgba(198, 46, 46, 1) 0%, rgba(145, 9, 9, 1) 44%, rgba(145, 9, 9, 1) 100%);background: -o-linear-gradient(top, rgba(198, 46, 46, 1) 0%, rgba(145, 9, 9, 1) 44%, rgba(145, 9, 9, 1) 100%);background: -ms-linear-gradient(top, rgba(198, 46, 46, 1) 0%, rgba(145, 9, 9, 1) 44%, rgba(145, 9, 9, 1) 100%);background: linear-gradient(to bottom, rgba(198, 46, 46, 1) 0%, rgba(145, 9, 9, 1) 44%, rgba(145, 9, 9, 1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62e2e', endColorstr='#910909', GradientType=0);border-top-left-radius: 0.3em;-moz-border-top-left-radius: 0.3em;-webkit-border-top-left-radius: 0.3em;border-top-right-radius: 0.3em;-moz-border-top-right-radius: 0.3em;-webkit-border-top-right-radius: 0.3em}
+.menu-top li a:link,.menu-top li a:visited {display: block;padding: 5px 0px;text-shadow: 1px 1px #000}
+.menu-top > li > ul {position: absolute;display: none;z-index: 999999;background: #930b00;margin-top: 2px;border-top: 1px solid #660f02}
+.menu-top li:hover ul {display: block}
+.menu-top li ul li {display: block;width: auto;margin-right: 0;padding: 0;border: none;background: none;border-top-left-radius: 0;-moz-border-top-left-radius: 0;-webkit-border-top-left-radius: 0;border-top-right-radius: 0;-moz-border-top-right-radius: 0;-webkit-border-top-right-radius: 0}
+.menu-top > li > ul > li > a:link,.menu-top > li > ul > li > a:visited {display: block;border-bottom: 1px solid #660f02;text-align: left;font-size: 85%;text-shadow: 0px 0px;font-weight: normal;padding: 8px 20px}
+.menu-top > li > ul > li > a:hover {background: #F06C6C}
+.box-menu {display: none}
+.container {width: 1060px;margin: 0 auto;padding: 0}
+.container .tx_sky1 {color: #007700;font-family: "supermarket", Tahoma, Arial;letter-spacing: 1px;width: 100%;text-align: left;float: left}
+.container .tx_sky1 h1 {font-size: 150%}
+.container .textlink {font-size: 13px;font-family: Tahoma, Geneva, sans-serif;color: #000}
+.container .textlink h2 {font-size: 100%;font-weight:normal;text-indent: 2.5em}
+.bg-content {background: #f4f4f4;padding: 0 0 2% 0}
+.banner-right {float: left;width: 30%;text-align: center;overflow: hidden}
+.banner-right img {max-width: 300px}
+.banner_300 .banner-box img {width: 99%}
+.game .g_content .label-res,.game .game_index .rows_game .label-res,.game .game_table .rows_game .label-res {display: none}
+.game {float: left;width: 98%;padding: 0 .5% 0 1%}
+.game .g_main {background: #CD3333;padding: 1%;font-family: supermarket, Tahoma, Arial;letter-spacing: 2px;font-size: 120%;color: #FFF;margin-bottom: .3%}
+.game .g_main a:link,.game .g_main a:visited {color: #fff}
+.game .g_main a:active,.game .g_main a:hover {color: #FEE6D2}
+.game .g_main .fl_left {float: left;width: 100%;text-align: center}
+.game .g_main .fl_right {float: left;width: 50%;text-align: right}
+.game .game_index {margin: 0;padding: 0}
+.game .game_index .h_game {text-align: center;background: #ee6515;color: #FFF;border: 1px solid #666;font-size: 90%}
+.game .game_index .rows_game {text-align: center;background: 0 0;color: #111;border: 1px solid #666;border-top: none;font-size: 80%;border-bottom: 1px dotted #999}
+.game .game_index .g_no {float: left;width: 10%;min-height: 35px;padding-top: 8px}
+.game .game_index .g_mem {float: left;width: 30%;min-height: 35px;padding-top: 8px;overflow: hidden;white-space: nowrap}
+.game .game_index .g_match,.game .game_index .g_per {width: 5%;min-height: 35px;padding-top: 8px;float: left}
+.game .game_index .g_per {overflow: hidden}
+.game .game_index .g_point {float: left;width: 15%;min-height: 35px;padding-top: 8px}
+.game .game_index .g_last {float: left;width: 45%;min-height: 35px;padding-top: 8px}
+.game .game_index .g_yesterday {float: left;width: 5%;min-height: 35px;padding-top: 8px}
+.game .game_index .g_ded {float:left;width:33.33%;min-height:25px;padding-top:0px;text-align:center}
+.game .game_index .g_stat,.game .game_index .g_today {float: left;width: 5%;min-height: 35px;padding-top: 8px}
+.linkball .l_main {background: #3B3C3F;padding: 1.5%;font-size: 130%;color: #FFF;margin-bottom: 0.3%}
+.linkball .link_rows {background: #F8F7F7;border-bottom: 1px solid #E4E4E4;text-align: center;padding: 1%;line-height: 26px}
+.linkball .link_rows.matchoff {display:none}
+.linkball .link_rows img {max-height: 26px}
+.linkball .link_rows:hover {background: #efefef}
+.linkball .link_rows.bg-bigmatch {background:#FFFACD}
+.linkball .link_rows.bg-bigmatch:hover {background:#ddd}
+.linkball .l_main a:link,.linkball .l_main a:visited {color: #FFF}
+.linkball .l_time {float: left;width: 6%;font-size: 85%}
+.linkball .l_logo {float:left;width:7%;color:#0000ff;font-size:13px;font-weight:bold}
+.linkball .l_logo img {vertical-align:top;display:inline-block;margin-left:1px;margin-top:7px}
+.linkball .l_logo .sod-ft {font-weight:bold;color:#f00;font-size:14px}
+.linkball .l_team1 {float: left;text-align: right;width: 22%;white-space: nowrap}
+.linkball .l_team1.goalnow {background:#fab6c1}
+.linkball .l_vs {float:left;width:10%;font-size: 100%;color: #000;padding:0 1% 0 1%}
+.linkball .l_vs .b-score {display:inline-block;padding:0px 10px;text-align:center}
+.linkball .l_vs .b-score .sc-livenow {color:#0000ff;font-weight:bold;font-size:14px}
+.linkball .l_vs .b-score .sc-livenow.white {}
+.linkball .l_vs .b-score .sc-livenow .sc-home.goalnow {color:#f00}
+.linkball .l_vs .b-score .sc-livenow .sc-away.goalnow {color:#f00}
+.linkball .l_team2 {float: left;text-align: left;width: 22%;white-space: nowrap}
+.linkball .l_team2.goalnow {background:#fab6c1}
+.linkball .l_channel {float: left;text-align: center;width: 12%}
+.linkball .l_program {float: right;width: 14%;color: #B2B2B2;white-space: nowrap;overflow: hidden;text-align: right;font-size: 80%}
+.linkball .res_program {display: none;text-align: center;color: #B2B2B2;font-size: 80%;white-space: nowrap;overflow: hidden}
+.linkball .desc {display: none;background: #e1e5fe}
+.linkball .exe_detail {background: #C5DEF3;color: #003366;padding: 1.8%;text-align: center;font-size: 90%}
+.linkball .link_left {float: left;width: 15%;text-align: left;padding: 1.2%;font-size: 85%}
+.linkball .link_left a:link,.linkball .link_left a:visited {color: #111}
+.linkball .link_right {float: left;width: 100%;text-align: center;padding: 1.2%;font-size: 85%}
+.linkball .link_right a:link,.linkball .link_right a:visited {color: #FF0000}
+.linkball_bigmatch {float: left;width: 100%;padding: 0 1% 0 1%}
+.linkball_bigmatch .l_main {background: #3B3C3F;padding: 1.5%;font-size: 130%;color: #FFF;margin-bottom: 0.3%}
+.linkball_bigmatch .link_rows {background: #F8F7F7;border-bottom: 1px solid #E4E4E4;text-align: center;padding: 1%;line-height: 26px}
+.linkball_bigmatch .link_rows:hover {background: #efefef}
+.linkball_bigmatch .l_main a:link,.linkball .l_main a:visited {color: #FFF}
+.linkball_bigmatch .l_time {float: left;width: 15%;font-size: 85%}
+.linkball_bigmatch .l_team {float: left;text-align: center;width: 80%;white-space: nowrap}
+.linkball_bigmatch .l_team .team-home {float:left;text-align:right;width:43%;overflow:hidden;white-space:nowrap}
+.linkball_bigmatch .l_team .team-vs {float:left;text-align:center;width:14%;white-space:nowrap}
+.linkball_bigmatch .l_team .team-away {float:left;text-align:left;width:43%;overflow:hidden;white-space:nowrap}
+.linkball_bigmatch .l_program {float:none;width: 100%;color: #B2B2B2;overflow: hidden;text-align: center;font-size: 85%;white-space: nowrap}
+footer {background: #000;padding: 5px}
+footer a:link,footer a:visited {color: #FFF;text-decoration: none}
+footer a:active,footer a:hover {color: #FFF;text-decoration: none}
+footer .foot_left {text-align: left;width: 35%;float: left}
+footer .foot_right {text-align: center;width: 65%;float: left}
+@media all and (max-width:649px),only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:1024px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:1024px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:1024px),only screen and (min-device-pixel-ratio:2) and (max-width:1024px),only screen and (min-resolution:192dpi) and (max-width:1024px),only screen and (min-resolution:2dppx) and (max-width:1024px) {#menu-t {background: #660f02;border-bottom: none;padding: 0;margin: 0.2% 0 2% 0}
+#menu-t .menu-top {display: none}
+#menu-t > .menu-top.open {display: block;width: 100%;border-top: 1px solid rgba(0, 0, 0, 0.1)}
+#menu-t .box-menu {background: #930b00;border-bottom: 4px solid #660f02;display: block;position: relative;padding: 0 4%;height: 35px;line-height: 32px;text-align: center;font-size: 100%;color: #DDD}
+#menu-t #menu-button {display: block;text-decoration: none;font-weight: 700;color: #d3eced;padding: 20px 25px 20px 25px;text-transform: uppercase;letter-spacing: 1px;cursor: pointer;width: 30px;float: right;position: absolute;top: 1px;right: 2%}
+#menu-t #menu-button:after {display: block;border-top: 2px solid #660f02;border-bottom: 2px solid #660f02;content: '';position: absolute;height: 3px;padding-top: 1px;width: 70%;right: 14%;top: 9px}
+#menu-t #menu-button:before {display: block;content: '';border-top: 2px solid #660f02;position: absolute;height: 2px;width: 70%;right: 14%;top: 21px}
+.menu-top li {width: 105%;display: block;background: #930b00;border-bottom: 1px solid #663300;text-align: left;border-top-left-radius: 0px;-moz-border-top-left-radius: 0px;-webkit-border-top-left-radius: 0px;border-top-right-radius: 0px;-moz-border-top-right-radius: 0px;-webkit-border-top-right-radius: 0px}
+.menu-top li:hover ul {display: none}
+.menu-top > li > ul {position: static;display: none;z-index: 999999;background: #930b00;margin-top: 2px;border-top: none}
+.menu-top li ul.open {display: block}
+.menu-top li ul li {display: block;width: 100%;margin-right: 0;padding: 0 0 0 20px;border: none;background: none;border-top-left-radius: 0;-moz-border-top-left-radius: 0;-webkit-border-top-left-radius: 0;border-top-right-radius: 0;-moz-border-top-right-radius: 0;-webkit-border-top-right-radius: 0}
+.menu-top > li > ul > li > a:link,.menu-top > li > ul > li > a:visited {display: block;border-top: 1px dotted #663300;border-bottom: none;text-align: left;font-size: 85%;text-shadow: 0px 0px;font-weight: normal;padding: 8px 20px}
+.menu-top > li a:hover,.menu-top > li > ul > li > a:hover {background: #F06C6C}
+}
+@media screen and (min-width:860px) and (max-width:1080px) {.container {width: 98%;overflow: hidden}
+.menu-top {text-align: center}
+.menu-top li {margin-top: 1%;width: 130px;font-size: 70%}
+.program .exediv .link_left {width: 35%}
+.program .exediv .link_right {width: 100%}
+.linkball .l_vs {width:15%}
+.linkball_bigmatch .l_time {width: 20%}
+.linkball_bigmatch .l_team {width: 75%}
+.linkball_bigmatch .l_program {width: 95%}
+}
+@media screen and (min-width:650px) and (max-width:859px) {#ads_fox_right .banner_slide1 {display: block;float: right;width: 90px}
+#ads_fox_right .banner_slide1 img {width: 100%}
+#ads_fox_right .closed img {max-height: 24px}
+#ads_fox_left .banner_slide1 {display: block;float: left;width: 90px}
+#ads_fox_left .banner_slide1 img {width: 100%}
+#ads_fox_left .closed img {max-height: 24px}
+#ads_fox_bottom .closed img {padding: 5px 0px 0px 0px;max-height: 28px}
+.container {width: 98%;overflow: hidden}
+.menu-top {text-align: center}
+.menu-top li {margin-top: 1%}
+.linkball .l_main {font-size: 120%}
+.linkball .link_rows {font-size: 70%}
+.linkball .link_rows img {max-width: 95%}
+.linkball .l_vs {width:15%}
+.linkball .l_vs .b-score .sc-livenow {font-size:80%}
+.linkball .link_left {width: 35%}
+.linkball .link_right {width: 100%}
+.linkball_bigmatch .l_time {width: 20%}
+.linkball_bigmatch .l_team {width: 75%}
+.linkball_bigmatch .l_program {width: 95%}
+footer .foot_left {float: none;width: 100%;text-align: center}
+footer .foot_right {float: none;width: 100%}
+}
+@media screen and (min-width:420px) and (max-width:649px) {#ads_fox_right .banner_slide1 {display: block;float: right;width: 80px}
+#ads_fox_right .banner_slide1 img {width: 100%}
+#ads_fox_right .closed img {max-height: 24px}
+#ads_fox_left .banner_slide1 {display: block;float: left;width: 80px}
+#ads_fox_left .banner_slide1 img {width: 100%}
+#ads_fox_left .closed img {max-height: 24px}
+#ads_fox_bottom .closed img {padding: 5px 0px 0px 0px;max-height: 28px}
+.container {width: 98%;overflow: hidden}
+header .logo {float: none;width: 100%;text-align: center}
+header .logo img {width: 70%;max-width: 300px}
+header .banner-1 {float: none;width: 100%}
+.menu-top li {width: 50%;float: left;margin-left: 0;margin-right: 0;border-left: 1px solid #663300}
+.banner_1000 img {width: 100%}
+.banner_300 .banner-box {display: inline-block;width: 33.3%;padding: 1%}
+.banner_300 .banner-box img {width: 100%}
+.banner-right {float: none;width: 100%}
+.linkball {float: none;width: 100%}
+.linkball .l_main {font-size: 110%}
+.linkball .link_rows {font-size: 70%}
+.linkball .link_rows img {max-width: 90%}
+.linkball .l_logo {width:11%;font-size:100%}
+.linkball .l_team1 {width: 20% }
+.linkball .l_team2 {width: 20% }
+.linkball .l_vs {width:15%}
+.linkball .l_vs .b-score .sc-livenow {font-size:100%}
+.linkball .link_left {width: 35%}
+.linkball .link_right {width: 100%}
+.linkball_bigmatch .l_time {width: 10%;float: left;text-align: center}
+.linkball_bigmatch .l_team {width: 70%;float: left;text-align: center}
+.linkball_bigmatch .l_program {width: 15%;float: right;text-align: right}
+footer .foot_left {float: none;width: 100%;text-align: center}
+footer .foot_right {float: none;width: 100%}
+}
+@media screen and (min-width:280px) and (max-width:419px) {#ads_fox_right .banner_slide1 {display: block;float: right;width: 60px}
+#ads_fox_right .banner_slide1 img {width: 100%}
+#ads_fox_right .closed img {max-height: 24px}
+#ads_fox_left .banner_slide1 {display: block;float: left;width: 60px}
+#ads_fox_left .banner_slide1 img {width: 100%}
+#ads_fox_left .closed img {max-height: 24px}
+#ads_fox_bottom .closed img {padding: 5px 0px 0px 0px;max-height: 28px}
+.container {width: 98%;overflow: hidden}
+header .logo {float: none;width: 100%}
+header .banner-1 {float: none;width: 100%}
+.banner_300 .banner-box {display: inline-block;width: 33.3%;padding: 1%}
+.banner_300 .banner-box img {width: 100%}
+.banner-right {float: none;width: 100%}
+.linkball {float: none;width: 100%}
+.linkball .l_main {font-size: 100%}
+.linkball .link_rows {font-size: 80%}
+.linkball .l_time {float: left;width: 10%}
+.linkball .l_logo {float: left;width: 10%;font-size:90%}
+.linkball .l_logo .sod-ft {font-size:90%}
+.linkball .l_team1 {float: left;text-align: right;width: 30%;white-space: nowrap;overflow: hidden}
+.linkball .l_vs {float: left;width: 20%;text-align: center;font-size: 100%;color: #000;padding:0 0 0 0}
+.linkball .l_vs .b-score {display:inline-block;margin:0 0 0 0}
+.linkball .l_vs .b-score .sc-livenow {font-size:90%}
+.linkball .l_team2 {float: left;text-align: left;width: 30%;white-space: nowrap;overflow: hidden}
+.linkball .l_channel {display: none}
+.linkball .l_program {display: none}
+.linkball .res_program {display: block;padding-left:18%}
+.linkball .link_left {width: 35%}
+.linkball .link_right {width: 100%}
+footer .foot_left {float: none;width: 100%;text-align: center}
+footer .foot_right {float: none;width: 100%}
+}
+body {background-image: url(https://www.ballzaa.com/img/config/bg.jpg);background-attachment:fixed;background-repeat:repeat}
